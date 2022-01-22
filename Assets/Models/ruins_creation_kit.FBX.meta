@@ -1,141 +1,496 @@
 fileFormatVersion: 2
 guid: 71ff0e77341aa304c921a48a639924b6
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: corridor_01
-    100002: destroyed_floor_01
-    100004: destroyed_wall_01
-    100006: destroyed_wall_02
-    100008: dome_01
-    100010: entrance_01
-    100012: entrance_02
-    100014: entrance_03
-    100016: iron_gate_01
-    100018: nef_01
-    100020: pew_01
-    100022: pew_02
-    100024: pillar_01
-    100026: pillar_02
-    100028: pillar_broke_01
-    100030: pillar_broke_part_01
-    100032: pillars_01
-    100034: //RootNode
-    100036: tomb_01
-    100038: vitrail_01
-    100040: vitrail_02
-    100042: vitrail_03
-    100044: vitrail_04
-    100046: vitrail_05
-    100048: vitrail_06
-    100050: vitrail_07
-    400000: corridor_01
-    400002: destroyed_floor_01
-    400004: destroyed_wall_01
-    400006: destroyed_wall_02
-    400008: dome_01
-    400010: entrance_01
-    400012: entrance_02
-    400014: entrance_03
-    400016: iron_gate_01
-    400018: nef_01
-    400020: pew_01
-    400022: pew_02
-    400024: pillar_01
-    400026: pillar_02
-    400028: pillar_broke_01
-    400030: pillar_broke_part_01
-    400032: pillars_01
-    400034: //RootNode
-    400036: tomb_01
-    400038: vitrail_01
-    400040: vitrail_02
-    400042: vitrail_03
-    400044: vitrail_04
-    400046: vitrail_05
-    400048: vitrail_06
-    400050: vitrail_07
-    2300000: corridor_01
-    2300002: destroyed_floor_01
-    2300004: destroyed_wall_01
-    2300006: destroyed_wall_02
-    2300008: dome_01
-    2300010: entrance_01
-    2300012: entrance_02
-    2300014: entrance_03
-    2300016: iron_gate_01
-    2300018: nef_01
-    2300020: pew_01
-    2300022: pew_02
-    2300024: pillar_01
-    2300026: pillar_02
-    2300028: pillar_broke_01
-    2300030: pillar_broke_part_01
-    2300032: pillars_01
-    2300034: tomb_01
-    2300036: vitrail_01
-    2300038: vitrail_02
-    2300040: vitrail_03
-    2300042: vitrail_04
-    2300044: vitrail_05
-    2300046: vitrail_06
-    2300048: vitrail_07
-    3300000: corridor_01
-    3300002: destroyed_floor_01
-    3300004: destroyed_wall_01
-    3300006: destroyed_wall_02
-    3300008: dome_01
-    3300010: entrance_01
-    3300012: entrance_02
-    3300014: entrance_03
-    3300016: iron_gate_01
-    3300018: nef_01
-    3300020: pew_01
-    3300022: pew_02
-    3300024: pillar_01
-    3300026: pillar_02
-    3300028: pillar_broke_01
-    3300030: pillar_broke_part_01
-    3300032: pillars_01
-    3300034: tomb_01
-    3300036: vitrail_01
-    3300038: vitrail_02
-    3300040: vitrail_03
-    3300042: vitrail_04
-    3300044: vitrail_05
-    3300046: vitrail_06
-    3300048: vitrail_07
-    4300000: nef_01
-    4300002: pillars_01
-    4300004: entrance_01
-    4300006: pillar_01
-    4300008: pillar_broke_01
-    4300010: pillar_broke_part_01
-    4300012: dome_01
-    4300014: destroyed_wall_01
-    4300016: destroyed_wall_02
-    4300018: tomb_01
-    4300020: vitrail_01
-    4300022: vitrail_02
-    4300024: vitrail_03
-    4300026: vitrail_04
-    4300028: vitrail_05
-    4300030: vitrail_06
-    4300032: vitrail_07
-    4300034: destroyed_floor_01
-    4300036: entrance_02
-    4300038: pillar_02
-    4300040: entrance_03
-    4300042: iron_gate_01
-    4300044: Object01
-    4300046: corridor_01
-    4300048: pew_01
-    4300050: pew_02
-    11100000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: corridor_01
+  - first:
+      1: 100002
+    second: destroyed_floor_01
+  - first:
+      1: 100004
+    second: destroyed_wall_01
+  - first:
+      1: 100006
+    second: destroyed_wall_02
+  - first:
+      1: 100008
+    second: dome_01
+  - first:
+      1: 100010
+    second: entrance_01
+  - first:
+      1: 100012
+    second: entrance_02
+  - first:
+      1: 100014
+    second: entrance_03
+  - first:
+      1: 100016
+    second: iron_gate_01
+  - first:
+      1: 100018
+    second: nef_01
+  - first:
+      1: 100020
+    second: pew_01
+  - first:
+      1: 100022
+    second: pew_02
+  - first:
+      1: 100024
+    second: pillar_01
+  - first:
+      1: 100026
+    second: pillar_02
+  - first:
+      1: 100028
+    second: pillar_broke_01
+  - first:
+      1: 100030
+    second: pillar_broke_part_01
+  - first:
+      1: 100032
+    second: pillars_01
+  - first:
+      1: 100034
+    second: //RootNode
+  - first:
+      1: 100036
+    second: tomb_01
+  - first:
+      1: 100038
+    second: vitrail_01
+  - first:
+      1: 100040
+    second: vitrail_02
+  - first:
+      1: 100042
+    second: vitrail_03
+  - first:
+      1: 100044
+    second: vitrail_04
+  - first:
+      1: 100046
+    second: vitrail_05
+  - first:
+      1: 100048
+    second: vitrail_06
+  - first:
+      1: 100050
+    second: vitrail_07
+  - first:
+      4: 400000
+    second: corridor_01
+  - first:
+      4: 400002
+    second: destroyed_floor_01
+  - first:
+      4: 400004
+    second: destroyed_wall_01
+  - first:
+      4: 400006
+    second: destroyed_wall_02
+  - first:
+      4: 400008
+    second: dome_01
+  - first:
+      4: 400010
+    second: entrance_01
+  - first:
+      4: 400012
+    second: entrance_02
+  - first:
+      4: 400014
+    second: entrance_03
+  - first:
+      4: 400016
+    second: iron_gate_01
+  - first:
+      4: 400018
+    second: nef_01
+  - first:
+      4: 400020
+    second: pew_01
+  - first:
+      4: 400022
+    second: pew_02
+  - first:
+      4: 400024
+    second: pillar_01
+  - first:
+      4: 400026
+    second: pillar_02
+  - first:
+      4: 400028
+    second: pillar_broke_01
+  - first:
+      4: 400030
+    second: pillar_broke_part_01
+  - first:
+      4: 400032
+    second: pillars_01
+  - first:
+      4: 400034
+    second: //RootNode
+  - first:
+      4: 400036
+    second: tomb_01
+  - first:
+      4: 400038
+    second: vitrail_01
+  - first:
+      4: 400040
+    second: vitrail_02
+  - first:
+      4: 400042
+    second: vitrail_03
+  - first:
+      4: 400044
+    second: vitrail_04
+  - first:
+      4: 400046
+    second: vitrail_05
+  - first:
+      4: 400048
+    second: vitrail_06
+  - first:
+      4: 400050
+    second: vitrail_07
+  - first:
+      23: 2300000
+    second: corridor_01
+  - first:
+      23: 2300002
+    second: destroyed_floor_01
+  - first:
+      23: 2300004
+    second: destroyed_wall_01
+  - first:
+      23: 2300006
+    second: destroyed_wall_02
+  - first:
+      23: 2300008
+    second: dome_01
+  - first:
+      23: 2300010
+    second: entrance_01
+  - first:
+      23: 2300012
+    second: entrance_02
+  - first:
+      23: 2300014
+    second: entrance_03
+  - first:
+      23: 2300016
+    second: iron_gate_01
+  - first:
+      23: 2300018
+    second: nef_01
+  - first:
+      23: 2300020
+    second: pew_01
+  - first:
+      23: 2300022
+    second: pew_02
+  - first:
+      23: 2300024
+    second: pillar_01
+  - first:
+      23: 2300026
+    second: pillar_02
+  - first:
+      23: 2300028
+    second: pillar_broke_01
+  - first:
+      23: 2300030
+    second: pillar_broke_part_01
+  - first:
+      23: 2300032
+    second: pillars_01
+  - first:
+      23: 2300034
+    second: tomb_01
+  - first:
+      23: 2300036
+    second: vitrail_01
+  - first:
+      23: 2300038
+    second: vitrail_02
+  - first:
+      23: 2300040
+    second: vitrail_03
+  - first:
+      23: 2300042
+    second: vitrail_04
+  - first:
+      23: 2300044
+    second: vitrail_05
+  - first:
+      23: 2300046
+    second: vitrail_06
+  - first:
+      23: 2300048
+    second: vitrail_07
+  - first:
+      33: 3300000
+    second: corridor_01
+  - first:
+      33: 3300002
+    second: destroyed_floor_01
+  - first:
+      33: 3300004
+    second: destroyed_wall_01
+  - first:
+      33: 3300006
+    second: destroyed_wall_02
+  - first:
+      33: 3300008
+    second: dome_01
+  - first:
+      33: 3300010
+    second: entrance_01
+  - first:
+      33: 3300012
+    second: entrance_02
+  - first:
+      33: 3300014
+    second: entrance_03
+  - first:
+      33: 3300016
+    second: iron_gate_01
+  - first:
+      33: 3300018
+    second: nef_01
+  - first:
+      33: 3300020
+    second: pew_01
+  - first:
+      33: 3300022
+    second: pew_02
+  - first:
+      33: 3300024
+    second: pillar_01
+  - first:
+      33: 3300026
+    second: pillar_02
+  - first:
+      33: 3300028
+    second: pillar_broke_01
+  - first:
+      33: 3300030
+    second: pillar_broke_part_01
+  - first:
+      33: 3300032
+    second: pillars_01
+  - first:
+      33: 3300034
+    second: tomb_01
+  - first:
+      33: 3300036
+    second: vitrail_01
+  - first:
+      33: 3300038
+    second: vitrail_02
+  - first:
+      33: 3300040
+    second: vitrail_03
+  - first:
+      33: 3300042
+    second: vitrail_04
+  - first:
+      33: 3300044
+    second: vitrail_05
+  - first:
+      33: 3300046
+    second: vitrail_06
+  - first:
+      33: 3300048
+    second: vitrail_07
+  - first:
+      43: 4300000
+    second: nef_01
+  - first:
+      43: 4300002
+    second: pillars_01
+  - first:
+      43: 4300004
+    second: entrance_01
+  - first:
+      43: 4300006
+    second: pillar_01
+  - first:
+      43: 4300008
+    second: pillar_broke_01
+  - first:
+      43: 4300010
+    second: pillar_broke_part_01
+  - first:
+      43: 4300012
+    second: dome_01
+  - first:
+      43: 4300014
+    second: destroyed_wall_01
+  - first:
+      43: 4300016
+    second: destroyed_wall_02
+  - first:
+      43: 4300018
+    second: tomb_01
+  - first:
+      43: 4300020
+    second: vitrail_01
+  - first:
+      43: 4300022
+    second: vitrail_02
+  - first:
+      43: 4300024
+    second: vitrail_03
+  - first:
+      43: 4300026
+    second: vitrail_04
+  - first:
+      43: 4300028
+    second: vitrail_05
+  - first:
+      43: 4300030
+    second: vitrail_06
+  - first:
+      43: 4300032
+    second: vitrail_07
+  - first:
+      43: 4300034
+    second: destroyed_floor_01
+  - first:
+      43: 4300036
+    second: entrance_02
+  - first:
+      43: 4300038
+    second: pillar_02
+  - first:
+      43: 4300040
+    second: entrance_03
+  - first:
+      43: 4300042
+    second: iron_gate_01
+  - first:
+      43: 4300044
+    second: Object01
+  - first:
+      43: 4300046
+    second: corridor_01
+  - first:
+      43: 4300048
+    second: pew_01
+  - first:
+      43: 4300050
+    second: pew_02
+  - first:
+      111: 11100000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01_ground
+    second: {fileID: 2100000, guid: 344cb3d4371265c4881088f3300990da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: domeInside
+    second: {fileID: 2100000, guid: 5fefc914d0b13714d9c0cd89d7662d02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: domeOutside
+    second: {fileID: 2100000, guid: be1a050756c261247bdd82f3ab85923b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iron
+    second: {fileID: 2100000, guid: a4111919638d3344abef9ed2948d3d3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: messBrick
+    second: {fileID: 2100000, guid: 8cdfb73b134c2b047a3b8fc147758777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 0e893941ce8166d4a9ee256ec9d4c1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_wood
+    second: {fileID: 2100000, guid: 312206338a1617346be086436715a37b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pew_01
+    second: {fileID: 2100000, guid: 9396c6b5a1b481d45b54c3e1b5787297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tomb_01
+    second: {fileID: 2100000, guid: 35590b56ebdca2943870be1f3b24a122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vitrail_01
+    second: {fileID: 2100000, guid: 27ba38d64fb95ba4faa92bc0263011cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vitrail_02
+    second: {fileID: 2100000, guid: ee851aff47b14174b8262d689d74813a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vitrail_03
+    second: {fileID: 2100000, guid: 5789e4c2b1a3a9141a89afd16275b1eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vitrail_04
+    second: {fileID: 2100000, guid: 324e8abf1a9b0224a986a3b52d5a8058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls
+    second: {fileID: 2100000, guid: 2769c474795d69443b6f874bd07d54d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls_break
+    second: {fileID: 2100000, guid: 9568fcc4a0fb74d4aa2350496fe2de12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodRoof
+    second: {fileID: 2100000, guid: 12e9efde9f2fba94c90193bcc41c9ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_planks
+    second: {fileID: 2100000, guid: e8d45f7955ca4eb458d745ea1facc551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: worked_Stone
+    second: {fileID: 2100000, guid: 62f5012b1cb233a499fa28e4e87bc72a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: worked_Stone_2
+    second: {fileID: 2100000, guid: 5a5394162d3d783448566c6530d6c505, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
-    materialSearch: 1
+    materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -148,6 +503,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -162,16 +519,24 @@ ModelImporter:
     globalScale: 0.12
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -182,10 +547,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -195,14 +563,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.12
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

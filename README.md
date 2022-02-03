@@ -1,5 +1,7 @@
 # Unity HLSL Shaders
 ## Scene: basiclighting
+<img src = "/screenshots/basiclighting.png" width = "385" height = "240"/>
+
 This scene employs a directional light based on the phong shading model to shade the spaceship. The light direction is symbolised by the game object *Light\_dir*. There are 2 shaders in this scene (located under Assets\\Shaders\\basiclighting): **light\_dir** and **ship\_dir**.
 
 ### Light\_dir
